@@ -13,12 +13,12 @@ oyelabs-assignment/
 │── config/
 │   ├── database.js        # Database configuration
 │── models/
-│   ├── index.js           # Sequelize initialization
+│   ├── syncModels.js           # Sequelize initialization
 │   ├── user.model.js      # User model definition
 │── routes/
-│   ├── user.routes.js     # User-related API routes
+│   ├── userRoutes.js     # User-related API routes
 │── controllers/
-│   ├── user.controller.js # User CRUD logic
+│   ├── userController.js # User CRUD logic
 │── middlewares/
 │   ├── validation.js      # Input validation middleware
 │   ├── errorHandler.js    # Global error handling
